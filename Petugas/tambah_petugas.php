@@ -36,7 +36,7 @@
                     <select name="level" class="form-select" aria-label="Default select example">
                         <option value="">-- Silahkan Pilih Level --</option>>
                         <option value="admin"> Admin </option>
-                        <option value="petugas"> Petugas </option>
+                        <!-- <option value="petugas"> Petugas </option> -->
                     </select>
                 </div>
                 <input type="submit" name="simpan" value="Simpan" class="btn btn-primary">

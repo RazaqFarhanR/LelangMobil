@@ -32,7 +32,7 @@
                 <a class="nav-link" href="tampil_peserta.php">Peserta</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="history_lelang.php">History Lelang</a>
+                <a class="nav-link" aria-current="page" href="laporan.php">Laporan Lelang</a>
             </li>
         </ul>
         <div class="col-lg-6 col-md-8 mx-auto">

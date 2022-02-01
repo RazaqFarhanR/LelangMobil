@@ -17,7 +17,7 @@
         <div class="card">
             <div class="card-header">
                 <h1>List Peserta</h1>
-                <form method="POST" action="home.php" class="d-flex">
+                <form method="POST" action="tampil_peserta.php" class="d-flex">
                     <input class="form-control me-2" type="search" name="cari" placeholder="Search" aria-label="Search">
                     <button class="btn btn-warning" type="submit">Search</button>
                 </form>
@@ -28,6 +28,7 @@
                     <tr style="text-align:center">
                     <th scope="col">ID PESERTA</th>
                     <th scope="col">NAMA</th>
+                    <th scope="col">ALAMAT</th>
                     <th scope="col">TELP</th>
                     <th scope="col">AKSI</th>
                     </tr>
@@ -47,6 +48,7 @@
                     <tr style="text-align:center">
                         <td class="text-center"><?=$data_peserta['id_peserta']?></td>
                         <td><?=$data_peserta['nama']?></td>
+                        <td><?=$data_peserta['alamat']?></td>
                         <td><?=$data_peserta['tlp']?></td>
                         <td>
                             <a href="ubah_peserta.php?id_peserta=<?=$data_peserta['id_peserta']?>" class="btn btn-success">Edit</a>

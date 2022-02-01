@@ -28,13 +28,16 @@
           </form>
       </div>
       <div class="col-lg-2 col-md-6 mx-auto">
-  </div>
+      </div>
         <ul class="navbar-nav">
+        <li>
+            <a class="nav-link" href="#"><?php echo $_SESSION['nama'];?></a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="tampil_barang.php">Daftar Mobil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="riwayat_lelang.php">Riwayat lelang</a>
+            <a class="nav-link" href="riwayat_lelang.php">lelang</a>
           </li>
           <li>
             <a class="nav-link" href="proses_logout.php">Logout</a>
@@ -43,5 +46,8 @@
     </div>
   </div>
 </nav>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>    

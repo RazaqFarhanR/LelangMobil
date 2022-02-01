@@ -24,10 +24,12 @@
                 <input type="hidden" name="id_peserta" value="<?=$data_peserta['id_peserta']?>">
                 Nama :
                 <input type="text" name="nama" value="<?=$data_peserta['nama']?>" class="form-control" required>
+                Alamat :
+                <input type="text" name="alamat" value="<?=$data_peserta['alamat']?>" class="form-control" required>
                 Username :
-                <input type="text" name="username" value="<?=$data_peserta['username']?>" class="form-control" required>
+                <input type="text" name="username" value="" class="form-control" placeholder="Masukan Username peserta" required>
                 Password :
-                <input type="password" name="password" value="" class="form-control" placeholder="kosongi bila tidak diubah">
+                <input type="password" name="password" value="" class="form-control" placeholder="Masukan Password peserta" required>
                 TELP :
                 <input type="number" name="tlp" value="<?=$data_peserta['tlp']?>" class="form-control" required>
                 <input type="submit" name="Simpan" value="Simpan" class="btn btn-primary">

@@ -33,7 +33,7 @@
     }
     else {
         echo "<script>alert('File tidak sesuai');
-        location.href='tambah_produk.php';</script>";
+        location.href='tambah_barang.php';</script>";
     }
 
 ?>

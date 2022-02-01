@@ -23,16 +23,20 @@
                     <input type="text" name="nama" value="" class="form-control" required>
                 </div>
                 <div>
+                    Alamat :
+                    <input type="text" name="alamat" value="" class="form-control" required>
+                </div>
+                <div>
+                    TELP :
+                    <input type="number" name="tlp" value="" class="form-control" required>
+                </div>
+                <div>
                     Username :
                     <input type="text" name="username" value="" class="form-control" required>
                 </div>
                 <div>
                     Password :
                     <input type="password" name="password" value="" class="form-control" required>
-                </div>
-                <div>
-                    TELP :
-                    <input type="number" name="tlp" value="" class="form-control" required>
                 </div>
                 <input type="submit" name="simpan" value="Simpan" class="btn btn-primary">
             <form> 

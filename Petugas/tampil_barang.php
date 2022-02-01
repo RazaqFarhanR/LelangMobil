@@ -53,10 +53,16 @@
                         <td><img src="foto/<?=$data_barang['foto_barang']?>" width=100></td>
                         <td><?=$data_barang['status']?></td>
                         <td>
-                            <a href="detail_barang.php?id_barang=<?=$data_barang['id_barang']?>" class="btn btn-primary">Detail</a>
-                            <a href="ubah_barang.php?id_barang=<?=$data_barang['id_barang']?>" class="btn btn-success">Edit</a>
-                            <a href="hapus_barang.php?id_barang=<?=$data_barang['id_barang']?>" class="btn btn-danger"
-                            onclick="return confirm('Apakah anda yakin menghapus data ini?')">Hapus</a>
+                            <?php if ($data_barang['status'] == 'ditutup'):?>
+                                <a href="hapus_barang.php?id_barang=<?=$data_barang['id_barang']?>" class="btn btn-danger"
+                                onclick="return confirm('Apakah anda yakin menghapus data ini?')">Hapus</a>
+                                <a href="detail_barang.php?id_barang=<?=$data_barang['id_barang']?>" class="btn btn-primary">Detail</a>
+                            <?php else :?>    
+                                <a href="hapus_barang.php?id_barang=<?=$data_barang['id_barang']?>" class="btn btn-danger"
+                                onclick="return confirm('Apakah anda yakin menghapus data ini?')">Hapus</a>
+                                <a href="detail_barang.php?id_barang=<?=$data_barang['id_barang']?>" class="btn btn-primary">Detail</a>
+                                <a href="ubah_barang.php?id_barang=<?=$data_barang['id_barang']?>" class="btn btn-success">Edit</a>
+                            <?php endif;?>
                         </td>
                     </tr>
                 <?php

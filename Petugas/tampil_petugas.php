@@ -17,7 +17,7 @@
         <div class="card">
             <div class="card-header">
                 <h1>List Petugas</h1>
-                <form method="POST" action="home.php" class="d-flex">
+                <form method="POST" action="tampil_petugas.php" class="d-flex">
                     <input class="form-control me-2" type="search" name="cari" placeholder="Search" aria-label="Search">
                     <button class="btn btn-warning" type="submit">Search</button>
                 </form>

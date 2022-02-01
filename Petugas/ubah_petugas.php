@@ -32,15 +32,16 @@
                     </div>
                     <div>
                         Password :
-                        <input type="password" name="password" value="" placeholder="kosongi bila tidak diubah" class="form-control">
+                        <input type="password" name="password" value="" class="form-control" required>
                     </div>
                         Level :
                         <select name="level" class="form-select" aria-label="Default select example">
                             <option value="<?$data_petugas['level']?>"></option>>
                             <option value="admin"> Admin </option>
-                            <option value="petugas"> Petugas </option>
-                        </select>
-                        <input type="submit" name="simpan" value="Simpan" class="btn btn-primary">
+                            <!-- <option value="petugas"> Petugas </option> -->
+                    </div>
+                    </select>
+                    <input type="submit" name="simpan" value="Simpan" class="btn btn-primary">
                 <form> 
             </div>
         </div>   

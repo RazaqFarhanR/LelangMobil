@@ -18,7 +18,7 @@
 
     .card {
     width: 320px;
-    height: 530px;
+    height: 590px;
     background: #000;
     color: #fff;
     top: 50%;
@@ -62,6 +62,14 @@
                     <label for="nama" class="form-label">Nama</label>
                     <input type="text" class="form-control" name="nama" placeholder="Masukkan Nama Lengkap" required>
                 </div>
+                <div>
+                    Alamat :
+                    <input type="text" name="alamat" value="" class="form-control" placeholder="Masukan alamat Anda" required>
+                </div>                
+                <div class="mb-3">
+                    <label for="tlp" class="form-label">Tlp</label> 
+                    <input type="text" name="tlp" value="" class="form-control" placeholder="Masukan Nomor Telepone" required>
+                </div>
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
                     <input type="text" class="form-control" name="username" placeholder="Masukkan username" required>
@@ -70,10 +78,7 @@
                     <label for="password" class="form-label">Password</label>
                     <input type="password" name="password" value="" class="form-control" placeholder="Masukan Password" required>
                 </div>
-                <div class="mb-3">
-                    <label for="tlp" class="form-label">Tlp</label> 
-                    <input type="text" name="tlp" value="" class="form-control" placeholder="Masukan Nomor Telpon" required>
-                </div>
+
                 <input type="submit" name="simpan" value="Daftar" class="btn btn-danger">            
             </div>
         </div>
